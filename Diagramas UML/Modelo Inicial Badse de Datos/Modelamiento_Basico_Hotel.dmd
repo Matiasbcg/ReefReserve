@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelamiento_Basico_Hotel" id="DAAEA0BE-2BD5-56A9-B355-3EEEF1A4BDE8" version="3.5">
+<createdBy>matias</createdBy>
+<createdTime>2024-08-29 15:05:59 UTC</createdTime>
+<ownerDesignName>Modelamiento_Basico_Hotel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>DAAEA0BE-2BD5-56A9-B355-3EEEF1A4BDE8</designId>
+</OSDM_Design>

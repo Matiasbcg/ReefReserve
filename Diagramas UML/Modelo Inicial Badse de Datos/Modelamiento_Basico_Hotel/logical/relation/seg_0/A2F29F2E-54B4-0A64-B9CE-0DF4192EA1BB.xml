@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_10" directorySegmentName="seg_0" id="A2F29F2E-54B4-0A64-B9CE-0DF4192EA1BB">
+<createdBy>matias</createdBy>
+<createdTime>2024-08-29 15:58:49 UTC</createdTime>
+<ownerDesignName>Modelamiento_Basico_Hotel</ownerDesignName>
+<engineerTo>
+<item key="83EA667B-59DC-F0C8-C0DB-FC7842ED9B64" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>C31CE290-4314-3206-2170-67B5F3998C5E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>342A42FF-DCDC-2815-50A4-D0811BACA9FA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

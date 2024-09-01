@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="29312D51-63A6-6D6A-8B09-444EC544E342" mainViewID="3A6508B7-311B-B327-071C-7A58B455D768">
+<createdBy>matias</createdBy>
+<createdTime>2024-08-29 15:05:59 UTC</createdTime>
+<ownerDesignName>Modelamiento_Basico_Hotel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

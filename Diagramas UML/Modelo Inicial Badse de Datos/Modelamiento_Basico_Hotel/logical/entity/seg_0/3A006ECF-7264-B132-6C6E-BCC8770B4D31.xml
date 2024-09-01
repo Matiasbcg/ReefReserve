@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A006ECF-7264-B132-6C6E-BCC8770B4D31" name="Cliente">
+<createdBy>matias</createdBy>
+<createdTime>2024-08-29 15:10:02 UTC</createdTime>
+<ownerDesignName>Modelamiento_Basico_Hotel</ownerDesignName>
+<engineerTo>
+<item key="83EA667B-59DC-F0C8-C0DB-FC7842ED9B64" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Cliente" id="396B142A-2B4B-5763-CD54-E20BB45F01DD">
+<createdBy>matias</createdBy>
+<createdTime>2024-08-29 15:10:23 UTC</createdTime>
+<ownerDesignName>Modelamiento_Basico_Hotel</ownerDesignName>
+<engineerTo>
+<item key="83EA667B-59DC-F0C8-C0DB-FC7842ED9B64" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="P_Nombre" id="CA9BD00F-6C3A-59E1-CF34-762C81B54A7F">
+<createdBy>matias</createdBy>
+<createdTime>2024-08-29 15:11:52 UTC</createdTime>
+<ownerDesignName>Modelamiento_Basico_Hotel</ownerDesignName>
+<engineerTo>
+<item key="83EA667B-59DC-F0C8-C0DB-FC7842ED9B64" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="S_Nombre" id="337CEBDA-C4AA-AF4C-238D-70E3DD744E5F">
+<createdBy>matias</createdBy>
+<createdTime>2024-08-29 15:12:23 UTC</createdTime>
+<ownerDesignName>Modelamiento_Basico_Hotel</ownerDesignName>
+<engineerTo>
+<item key="83EA667B-59DC-F0C8-C0DB-FC7842ED9B64" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="P_Apellido" id="B22CAD8D-EBCE-F24C-236B-B21D4FB7B899">
+<createdBy>matias</createdBy>
+<createdTime>2024-08-29 15:12:38 UTC</createdTime>
+<ownerDesignName>Modelamiento_Basico_Hotel</ownerDesignName>
+<engineerTo>
+<item key="83EA667B-59DC-F0C8-C0DB-FC7842ED9B64" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="M_Apellido" id="DA9B0A3A-3F81-8727-37E1-F69CF885C4F7">
+<createdBy>matias</createdBy>
+<createdTime>2024-08-29 15:13:03 UTC</createdTime>
+<ownerDesignName>Modelamiento_Basico_Hotel</ownerDesignName>
+<engineerTo>
+<item key="83EA667B-59DC-F0C8-C0DB-FC7842ED9B64" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Correo_Electronico" id="F0394316-97BC-2A70-8820-20C521D425A9">
+<createdBy>matias</createdBy>
+<createdTime>2024-08-29 15:13:22 UTC</createdTime>
+<ownerDesignName>Modelamiento_Basico_Hotel</ownerDesignName>
+<engineerTo>
+<item key="83EA667B-59DC-F0C8-C0DB-FC7842ED9B64" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="A90DFDDD-53F1-DC97-F187-98399F3B2DFD">
+<createdBy>matias</createdBy>
+<createdTime>2024-08-29 15:14:18 UTC</createdTime>
+<ownerDesignName>Modelamiento_Basico_Hotel</ownerDesignName>
+<engineerTo>
+<item key="83EA667B-59DC-F0C8-C0DB-FC7842ED9B64" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nacionalidad" id="66FE0E40-29E9-6CE6-49E9-F97059E15AF2">
+<createdBy>matias</createdBy>
+<createdTime>2024-08-29 15:15:01 UTC</createdTime>
+<ownerDesignName>Modelamiento_Basico_Hotel</ownerDesignName>
+<engineerTo>
+<item key="83EA667B-59DC-F0C8-C0DB-FC7842ED9B64" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Idioma_Preferencial" id="5507A332-9C9E-67C5-0452-B3861AB9795B">
+<createdBy>matias</createdBy>
+<createdTime>2024-08-29 15:15:24 UTC</createdTime>
+<ownerDesignName>Modelamiento_Basico_Hotel</ownerDesignName>
+<engineerTo>
+<item key="83EA667B-59DC-F0C8-C0DB-FC7842ED9B64" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B600BB84-5E72-2F15-D4AE-3C27179B8D81" name="Cliente PK">
+<createdBy>matias</createdBy>
+<createdTime>2024-08-29 15:10:26 UTC</createdTime>
+<ownerDesignName>Modelamiento_Basico_Hotel</ownerDesignName>
+<engineerTo>
+<item key="83EA667B-59DC-F0C8-C0DB-FC7842ED9B64" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>396B142A-2B4B-5763-CD54-E20BB45F01DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
