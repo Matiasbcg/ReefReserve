@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="83EA667B-59DC-F0C8-C0DB-FC7842ED9B64" mainViewID="E3B5EE29-BC1F-0232-163D-F1A32A7B6A59">
-<createdBy>matias</createdBy>
-<createdTime>2024-08-29 15:06:02 UTC</createdTime>
-<ownerDesignName>Modelamiento_Basico_Hotel</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
-</relationalModel>
