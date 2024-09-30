@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Selecciona fecha</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="fecha-page">
+  <div class="fecha-input-container">
+    <ion-item>
+      <ion-label position="floating">Ingresar fecha</ion-label>
+      <ion-datetime
+        display-format="DD/MM/YYYY"
+        placeholder="dd/mm/yyyy"
+        [(ngModel)]="selectedDate"
+        #datePicker>
+      </ion-datetime>
+      <ion-icon slot="end" name="calendar-outline"></ion-icon>
+    </ion-item>
+
+    <div class="action-buttons">
+      <ion-button fill="clear" color="medium" (click)="cancelDate()">Cancel</ion-button>
+      <ion-button fill="clear" color="primary" (click)="confirmDate()">OK</ion-button>
+    </div>
+  </div>
+
+  <div class="calendar-container">
+    <ion-item>
+      <ion-label>Select date</ion-label>
+    </ion-item>
+
+    <ion-calendar
+      [(ngModel)]="selectedDate"
+      (ionChange)="onDateChange($event)">
+    </ion-calendar>
+  </div>
+</ion-content>

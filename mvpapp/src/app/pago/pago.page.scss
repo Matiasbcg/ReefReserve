@@ -1,0 +1,34 @@
+.pago-page {
+    .datos-reserva {
+      ion-item {
+        margin-bottom: 10px;
+      }
+    }
+  
+    .datos-tarjeta {
+      ion-card {
+        margin: 20px 0;
+  
+        ion-card-content {
+          .card-details {
+            display: flex;
+            justify-content: space-between;
+  
+            ion-input {
+              width: 48%;
+            }
+          }
+        }
+      }
+  
+      .action-buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+      }
+    }
+  
+    ion-button {
+      margin-top: 20px;
+    }
+  }  

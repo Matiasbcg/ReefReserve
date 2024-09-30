@@ -1,0 +1,56 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Pago</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="pago-page">
+
+  <div class="datos-reserva">
+    <ion-item>
+      <ion-label>Fecha</ion-label>
+      <ion-label>{{ selectedDate }}</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Número de personas</ion-label>
+      <ion-input type="number" placeholder="Número de personas: 1"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Habitación</ion-label>
+      <ion-input type="text" placeholder="Tipo de habitación: Royal"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Forma de pago</ion-label>
+      <ion-input type="text" placeholder="Forma de pago: Tarjeta"></ion-input>
+    </ion-item>
+  </div>
+
+  <div class="datos-tarjeta">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Datos Tarjeta</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-item>
+          <ion-label position="floating">Nombre</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input type="text" placeholder="Número tarjeta"></ion-input>
+        </ion-item>
+        <div class="card-details">
+          <ion-input type="text" placeholder="Fecha exp"></ion-input>
+          <ion-input type="text" placeholder="CVV"></ion-input>
+        </div>
+      </ion-card-content>
+    </ion-card>
+
+    <div class="action-buttons">
+      <ion-button fill="clear" color="medium" (click)="cancel()">Cancel</ion-button>
+      <ion-button fill="clear" color="primary" (click)="ok()">OK</ion-button>
+    </div>
+  </div>
+
+  <ion-button expand="full" (click)="confirmarPago()">Confirmar pago</ion-button>
+
+</ion-content>

@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button>
+        <ion-icon slot="icon-only" name="person-circle-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Habitaciones</ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="icon-only" name="notifications-outline"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon slot="icon-only" name="settings-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="home-page">
+  <div class="search-container">
+    <ion-searchbar placeholder="Busca una habitación"></ion-searchbar>
+  </div>
+
+  <div class="choose-room">
+    <h2>Escoge una habitación <a href="#">ver todos</a></h2>
+  </div>
+
+  <div class="room-section">
+    <div class="room-item">
+      <img src="assets/img/room1.jpg" alt="Royal Room">
+      <p>Royal</p>
+    </div>
+    <div class="room-item">
+      <img src="assets/img/room2.jpg" alt="Standard Room">
+      <p>Standard</p>
+    </div>
+    <div class="room-item">
+      <img src="assets/img/room3.jpg" alt="Ejecutiva Room">
+      <p>Ejecutiva</p>
+    </div>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="home">
+      <ion-icon name="home-outline"></ion-icon>
+      <ion-label>Home</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="reserva">
+      <ion-icon name="calendar-outline"></ion-icon>
+      <ion-label>Reserva</ion-label>
+    </ion-tab-button>
+
+    <ion-tab-button tab="habitaciones">
+      <ion-icon name="bed-outline"></ion-icon>
+      <ion-label>Habitaciones</ion-label>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-footer>
