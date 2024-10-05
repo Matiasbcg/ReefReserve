@@ -1,15 +1,16 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-fecha',
-  templateUrl: './fecha.page.html',
-  styleUrls: ['./fecha.page.scss'],
+  templateUrl: 'fecha.page.html',
+  styleUrls: ['fecha.page.scss'],
 })
 export class FechaPage implements OnInit {
 
   selectedDate: string = '';
 
-  constructor() { }
+  constructor(private navCtrl: NavController) { }
 
   ngOnInit() {
   }
@@ -24,6 +25,6 @@ export class FechaPage implements OnInit {
 
   confirmDate() {
     console.log('Fecha seleccionada:', this.selectedDate);
-    
+    this.navCtrl.navigateForward('/pago');
   }
 }

@@ -38,4 +38,3 @@ export class PagoPage implements OnInit {
     this.navCtrl.navigateBack('/home');
   }
 }
-

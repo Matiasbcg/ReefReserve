@@ -13,15 +13,15 @@
     </ion-item>
     <ion-item>
       <ion-label>Número de personas</ion-label>
-      <ion-input type="number" placeholder="Número de personas: 1"></ion-input>
+      <ion-input type="number" placeholder="1"></ion-input>
     </ion-item>
     <ion-item>
       <ion-label>Habitación</ion-label>
-      <ion-input type="text" placeholder="Tipo de habitación: Royal"></ion-input>
+      <ion-input type="text" placeholder="Royal"></ion-input>
     </ion-item>
     <ion-item>
       <ion-label>Forma de pago</ion-label>
-      <ion-input type="text" placeholder="Forma de pago: Tarjeta"></ion-input>
+      <ion-input type="text" placeholder="Tarjeta"></ion-input>
     </ion-item>
   </div>
 
@@ -44,13 +44,8 @@
         </div>
       </ion-card-content>
     </ion-card>
-
-    <div class="action-buttons">
-      <ion-button fill="clear" color="medium" (click)="cancel()">Cancel</ion-button>
-      <ion-button fill="clear" color="primary" (click)="ok()">OK</ion-button>
-    </div>
   </div>
 
   <ion-button expand="full" (click)="confirmarPago()">Confirmar pago</ion-button>
-
+  
 </ion-content>
